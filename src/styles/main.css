@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: 'Sahel';
+  src: url('./fonts/Sahel-Bold-FD-WOL.ttf') format('truetype'),
+    url('./fonts/Sahel-Bold-FD-WOL.woff') format('woff'),
+    url('./fonts/Sahel-Bold-FD-WOL.eot') format('eot');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Sahel';
+  src: url('./fonts/Sahel-Black-FD.ttf') format('truetype'),
+    url('./fonts/Sahel-Black-FD.woff') format('woff'),
+    url('./fonts/Sahel-Black-FD.eot') format('eot');
+  font-weight: bold;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply bg-white;
+    font-family: Poppins, Sahel;
+  }
+
+  body {
+    @apply flex flex-col justify-end min-h-screen;
+  }
+}
+
+html[theme='dark'] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+#app {
+  @apply px-6 py-5 md:py-7 overflow-x-hidden;
+}
+
+.app-content--rtl {
+  direction: rtl;
+}

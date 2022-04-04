@@ -1,0 +1,39 @@
+{
+  "fullName": "مِهدی خوشنویس‌زاده",
+  "position": "توسعه‌دهندهٔ رابط کاربری",
+  "hello": "سلام!",
+  "intro": "من <span class='text-slate-600'>مهدی</span> هستم.<br class='md:hidden'> یک <span class='text-teal-500'>توسعه‌دهندهٔ رابط کاربری</span> که در حال حاضر در <span class='text-slate-600'>قم، ایران</span> زندگی می‌کنم.",
+  "description": "بیشتر از چهار سال هست که در تخصص توسعهٔ رابط کاربری مشغول به فعالیت هستم و با شرکت‌های با مقیاس کوچک و بزرگ تجربه همکاری داشتم. من توانایی توسعه برنامه‌های کاربردی سمت وب رو با تکنولوژی‌های <b>React</b> ،<b>Vue</b> ،<b>Javascript</b> و <b>Nodejs</b> دارم. از علاقه‌مندی‌هام می‌تونم به برنامه‌نویسی، خواندن کتاب، گوش دادن به موسیقی، تماشای فیلم و سریال، عکاسی، انجام بازی‌های کنسول و سفر اشاره کنم.",
+  "socials": [
+    {
+      "name": "رزومه من",
+      "url": "https://drive.google.com/file/d/1pzsXhSKor8Nr2CztZ9iHqddzMBRDqarM/view?usp=sharing"
+    },
+    {
+      "name": "گیتهاب",
+      "url": "https://github.com/MehdiKhoshnevisz"
+    },
+    {
+      "name": "توییتر",
+      "url": "https://twitter.com/imehdi96"
+    },
+    {
+      "name": "لینکدین",
+      "url": "https://www.linkedin.com/in/mehdi-khoshnevisz"
+    },
+    {
+      "name": "اینستاگرام",
+      "url": "https://www.instagram.com/mehdi_khoshnevisz"
+    }
+  ],
+  "buttons": {
+    "cta": {
+      "title": "همکاری کنیم!",
+      "url": "mailto:mkhnsz1996@gmail.com"
+    },
+    "invite": {
+      "title": "یه قهوه مهمونم کن :)",
+      "url": "https://www.buymeacoffee.com/imehdi"
+    }
+  }
+}
