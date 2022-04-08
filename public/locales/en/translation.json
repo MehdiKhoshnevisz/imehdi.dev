@@ -2,7 +2,7 @@
   "fullName": "MEHDI KHOSHNEVIS ZADE",
   "position": "Front-End Developer",
   "hello": "Hey, there!",
-  "intro": "My name is <span class='text-slate-600'>Mehdi</span>.<br class='md:hidden'> I'm a <span class='text-teal-500'>Front-End developer</span>.<br/> Based in <span class='text-slate-600'>Qom, Iran</span>.",
+  "intro": "My name is <span class='text-slate-600'>Mehdi</span>.<br class='md:hidden'> I'm a <span class='text-teal-500'>Front-End developer</span> <br /> Working remotely",
   "description": "I've been working as a Front-End Developer for more than 4 years and I have experience in creating websites and web applications and working with small and large-scale companies. I can create web applications with <b>Javascript</b>, <b>Vue</b>, <b>React</b> and <b>Nodejs</b>. I Like programming, reading books, listening to music, watching movies, photography, playing games, and traveling.",
   "socials": [
     {
