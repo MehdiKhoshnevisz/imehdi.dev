@@ -1,21 +1,10 @@
-import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import Languages from '@/components/Languages';
 import SocialLinks from '@/components/SocialLinks';
 
-import Avatar from '@/styles/images/avatar.svg';
-import AvatarDark from '@/styles/images/avatar-dark.svg';
-
 const Content = (props) => {
   const { t, i18n, ready } = useTranslation();
-  const [theme, setTheme] = useState('');
-
-  const switchTheme = () => {
-    const html = document.querySelector('html');
-    html.setAttribute('theme', theme ? '' : 'dark');
-    setTheme(theme ? '' : 'dark');
-  };
 
   if (!ready) return '...';
 
@@ -23,18 +12,6 @@ const Content = (props) => {
     <>
       <main className="md:max-w-5xl mb-10">
         <div className="text-teal-500 font-extrabold md:hidden"></div>
-        <img
-          src={!theme ? Avatar : AvatarDark}
-          width="200"
-          alt=""
-          className="cursor-pointer mb-5"
-          style={{
-            transform: `translateX(${i18n.language === 'fa' ? '45px' : '-45px'}) ${
-              i18n.language === 'fa' ? 'scaleX(-1)' : ''
-            }`
-          }}
-          onClick={() => switchTheme()}
-        />
         <h1 className="text-4xl md:text-5xl text-slate-900 font-bold mb-10">{t('hello')}</h1>
         <div className="mb-10">
           <p
